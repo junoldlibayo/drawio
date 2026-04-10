@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="vM5hD1I2OdI3W_U3G5BG">
-    <mxGraphModel dx="343" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="335" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="olr2-k681IYygHXelbj--3" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;labelBackgroundColor=none;gradientColor=#7ea6e0;verticalAlign=middle;whiteSpace=wrap;fontColor=light-dark(#000000,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Kissena Bakery — Revenue Cycle (Order-to-Cash)&lt;/font&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="380" width="1040" x="30" y="80" as="geometry" />
+          <mxGeometry height="820" width="1070" x="10" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="olr2-k681IYygHXelbj--4" parent="olr2-k681IYygHXelbj--3" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#b85450;fillColor=#f8cecc;labelBackgroundColor=none;gradientColor=#ea6b66;" value="Sales Department" vertex="1">
-          <mxGeometry height="120" width="1040" y="20" as="geometry" />
+        <mxCell id="olr2-k681IYygHXelbj--4" parent="olr2-k681IYygHXelbj--3" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;labelBackgroundColor=none;gradientColor=#7ea6e0;" value="Sales Department" vertex="1">
+          <mxGeometry height="230" width="1070" y="20" as="geometry" />
         </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--19" edge="1" parent="olr2-k681IYygHXelbj--4" source="olr2-k681IYygHXelbj--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=light-dark(#FFFFFF,#FFFFFF);fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--18">
           <mxGeometry relative="1" as="geometry" />
@@ -16,20 +16,35 @@
         <mxCell id="olr2-k681IYygHXelbj--13" parent="olr2-k681IYygHXelbj--4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;gradientColor=#97d077;" value="&lt;b&gt;START&lt;/b&gt;" vertex="1">
           <mxGeometry height="40" width="100" x="50" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="olr2-k681IYygHXelbj--26" edge="1" parent="olr2-k681IYygHXelbj--4" source="olr2-k681IYygHXelbj--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--20">
+        <mxCell id="olr2-k681IYygHXelbj--28" edge="1" parent="olr2-k681IYygHXelbj--4" source="olr2-k681IYygHXelbj--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--18" parent="olr2-k681IYygHXelbj--4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start; background-color: rgba(0, 115, 123, 0.08);&quot;&gt;Customer Places Order&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="180" x="180" y="40" as="geometry" />
         </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--30" edge="1" parent="olr2-k681IYygHXelbj--4" source="olr2-k681IYygHXelbj--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--20" parent="olr2-k681IYygHXelbj--4" style="shape=manualInput;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;br&gt;Order Details Entered into System&lt;/font&gt;" vertex="1">
-          <mxGeometry height="70" width="140" x="420" y="10" as="geometry" />
+          <mxGeometry height="80" width="140" x="420" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--27" parent="olr2-k681IYygHXelbj--4" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;Sales Order Generated&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="610" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--31" parent="olr2-k681IYygHXelbj--4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#996185;fillColor=#e6d0de;gradientColor=#d5739d;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Credit Check Approved?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--32" edge="1" parent="olr2-k681IYygHXelbj--4" source="olr2-k681IYygHXelbj--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.023;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--33" parent="olr2-k681IYygHXelbj--4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;strokeColor=#b85450;fillColor=#f8cecc;gradientColor=#ea6b66;dashed=1;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Order Rejected — Customer Notified&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="115" x="765" y="130" as="geometry" />
         </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--5" parent="olr2-k681IYygHXelbj--3" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#82b366;fillColor=#d5e8d4;labelBackgroundColor=none;gradientColor=#97d077;verticalAlign=middle;whiteSpace=wrap;" value="Warehouse Department" vertex="1">
-          <mxGeometry height="120" width="1040" y="140" as="geometry" />
+          <mxGeometry height="310" width="1070" y="250" as="geometry" />
         </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--6" parent="olr2-k681IYygHXelbj--3" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#d79b00;fillColor=#ffcd28;labelBackgroundColor=none;gradientColor=#ffa500;verticalAlign=middle;whiteSpace=wrap;" value="Billing / Accounts Recievable" vertex="1">
-          <mxGeometry height="120" width="1040" y="260" as="geometry" />
+          <mxGeometry height="260" width="1070" y="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
