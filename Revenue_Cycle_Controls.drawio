@@ -31,6 +31,14 @@
         <mxCell id="olr2-k681IYygHXelbj--27" parent="olr2-k681IYygHXelbj--4" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;Sales Order Generated&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="110" x="610" y="30" as="geometry" />
         </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--34" edge="1" parent="olr2-k681IYygHXelbj--4" source="olr2-k681IYygHXelbj--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--35" connectable="0" parent="olr2-k681IYygHXelbj--34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#FFFFFF;fontColor=#1A1A1A;fillColor=#EEEEEE;" value="&lt;span&gt;No — Rejected&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3348" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--31" parent="olr2-k681IYygHXelbj--4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#996185;fillColor=#e6d0de;gradientColor=#d5739d;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Credit Check Approved?&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="760" y="30" as="geometry" />
         </mxCell>
@@ -38,7 +46,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--33" parent="olr2-k681IYygHXelbj--4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;strokeColor=#b85450;fillColor=#f8cecc;gradientColor=#ea6b66;dashed=1;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Order Rejected — Customer Notified&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="115" x="765" y="130" as="geometry" />
+          <mxGeometry height="40" width="115" x="762.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--36" parent="olr2-k681IYygHXelbj--4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#FFFFFF;fontColor=#1A1A1A;fillColor=#EEEEEE;" value="" vertex="1">
+          <mxGeometry height="50" width="120" x="920" y="35" as="geometry" />
         </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--5" parent="olr2-k681IYygHXelbj--3" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#82b366;fillColor=#d5e8d4;labelBackgroundColor=none;gradientColor=#97d077;verticalAlign=middle;whiteSpace=wrap;" value="Warehouse Department" vertex="1">
           <mxGeometry height="310" width="1070" y="250" as="geometry" />
