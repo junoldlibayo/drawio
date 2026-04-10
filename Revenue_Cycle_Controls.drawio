@@ -128,7 +128,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0DXOYc7V0u4ljL947dy0" name="Page-2">
-    <mxGraphModel dx="978" dy="1380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1397" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,6 +146,9 @@
         </mxCell>
         <mxCell id="X_NPUhmX30F2WcKUlwbm-1" parent="9miTQeZxNO9IWmU-bMmJ-88" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;fontColor=light-dark(#FFFFFF,#FFFFFF);align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Share Tech Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.192px;&quot;&gt;Goods Dispatched to Customer&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="130" x="275" y="48.12" as="geometry" />
+        </mxCell>
+        <mxCell id="RT-pSy6jQwOc6XmOiuOK-10" edge="1" parent="9miTQeZxNO9IWmU-bMmJ-71" source="X_NPUhmX30F2WcKUlwbm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#1A1A1A;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="RT-pSy6jQwOc6XmOiuOK-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9miTQeZxNO9IWmU-bMmJ-104" parent="9miTQeZxNO9IWmU-bMmJ-71" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#d79b00;fillColor=#ffcd28;labelBackgroundColor=none;gradientColor=#ffa500;verticalAlign=middle;whiteSpace=wrap;" value="Billing / Accounts Recievable" vertex="1">
           <mxGeometry height="420" width="1070" y="400" as="geometry" />
@@ -168,8 +171,20 @@
         <mxCell id="RT-pSy6jQwOc6XmOiuOK-4" parent="9miTQeZxNO9IWmU-bMmJ-104" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start;&quot;&gt;Payment Recieved&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="190" x="525" y="85" as="geometry" />
         </mxCell>
+        <mxCell id="ADtNcXs6y8MAiOYC3Igy-2" edge="1" parent="9miTQeZxNO9IWmU-bMmJ-104" source="RT-pSy6jQwOc6XmOiuOK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#1A1A1A;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="RT-pSy6jQwOc6XmOiuOK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RT-pSy6jQwOc6XmOiuOK-6" parent="9miTQeZxNO9IWmU-bMmJ-104" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;Remittance Advice Recorded&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="110" x="805" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RT-pSy6jQwOc6XmOiuOK-11" parent="9miTQeZxNO9IWmU-bMmJ-104" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start;&quot;&gt;Cash Posted to Accounts Recievable&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="155" x="910" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ADtNcXs6y8MAiOYC3Igy-1" parent="9miTQeZxNO9IWmU-bMmJ-104" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;gradientColor=#97d077;" value="&lt;b&gt;END&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="937.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ADtNcXs6y8MAiOYC3Igy-3" edge="1" parent="9miTQeZxNO9IWmU-bMmJ-104" source="RT-pSy6jQwOc6XmOiuOK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#6c8ebf;fontColor=#1A1A1A;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="ADtNcXs6y8MAiOYC3Igy-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
