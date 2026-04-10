@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="vM5hD1I2OdI3W_U3G5BG">
-    <mxGraphModel dx="335" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="923" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="olr2-k681IYygHXelbj--28" edge="1" parent="olr2-k681IYygHXelbj--4" source="olr2-k681IYygHXelbj--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="olr2-k681IYygHXelbj--18" parent="olr2-k681IYygHXelbj--4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start; background-color: rgba(0, 115, 123, 0.08);&quot;&gt;Customer Places Order&lt;/span&gt;" vertex="1">
+        <mxCell id="olr2-k681IYygHXelbj--18" parent="olr2-k681IYygHXelbj--4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start;&quot;&gt;Customer Places Order&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="180" x="180" y="40" as="geometry" />
         </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--30" edge="1" parent="olr2-k681IYygHXelbj--4" source="olr2-k681IYygHXelbj--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--27">
@@ -39,6 +39,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--37" edge="1" parent="olr2-k681IYygHXelbj--4" source="olr2-k681IYygHXelbj--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--38" connectable="0" parent="olr2-k681IYygHXelbj--37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#FFFFFF;fontColor=#1A1A1A;fillColor=#EEEEEE;" value="Yes — Approved" vertex="1">
+          <mxGeometry relative="1" x="-0.0303" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--31" parent="olr2-k681IYygHXelbj--4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#996185;fillColor=#e6d0de;gradientColor=#d5739d;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Credit Check Approved?&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="760" y="30" as="geometry" />
         </mxCell>
@@ -48,14 +60,63 @@
         <mxCell id="olr2-k681IYygHXelbj--33" parent="olr2-k681IYygHXelbj--4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;strokeColor=#b85450;fillColor=#f8cecc;gradientColor=#ea6b66;dashed=1;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Order Rejected — Customer Notified&lt;/font&gt;" vertex="1">
           <mxGeometry height="40" width="115" x="762.5" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="olr2-k681IYygHXelbj--36" parent="olr2-k681IYygHXelbj--4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#FFFFFF;fontColor=#1A1A1A;fillColor=#EEEEEE;" value="" vertex="1">
-          <mxGeometry height="50" width="120" x="920" y="35" as="geometry" />
+        <mxCell id="olr2-k681IYygHXelbj--36" parent="olr2-k681IYygHXelbj--4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Sales Order Authorized &amp;amp; Released to Warehouse&lt;/font&gt;" vertex="1">
+          <mxGeometry height="45" width="140" x="900" y="130" as="geometry" />
         </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--5" parent="olr2-k681IYygHXelbj--3" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#82b366;fillColor=#d5e8d4;labelBackgroundColor=none;gradientColor=#97d077;verticalAlign=middle;whiteSpace=wrap;" value="Warehouse Department" vertex="1">
           <mxGeometry height="310" width="1070" y="250" as="geometry" />
         </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--41" parent="olr2-k681IYygHXelbj--5" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start;&quot;&gt;Sales Order Received by Warehouse&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="162.5" x="50" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--62" edge="1" parent="olr2-k681IYygHXelbj--5" source="olr2-k681IYygHXelbj--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--63" connectable="0" parent="olr2-k681IYygHXelbj--62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#FFFFFF;fontColor=#1A1A1A;fillColor=#EEEEEE;" value="No — Out of Stock" vertex="1">
+          <mxGeometry relative="1" x="-0.2745" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--83" edge="1" parent="olr2-k681IYygHXelbj--5" source="olr2-k681IYygHXelbj--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--84" connectable="0" parent="olr2-k681IYygHXelbj--83" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#FFFFFF;fontColor=#1A1A1A;fillColor=#EEEEEE;" value="Yes — In Stock" vertex="1">
+          <mxGeometry relative="1" x="-0.2048" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--43" parent="olr2-k681IYygHXelbj--5" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#996185;fillColor=#e6d0de;gradientColor=#d5739d;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Inventory Available?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="280" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--44" edge="1" parent="olr2-k681IYygHXelbj--5" source="olr2-k681IYygHXelbj--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--61" parent="olr2-k681IYygHXelbj--5" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;strokeColor=#b85450;fillColor=#f8cecc;gradientColor=#ea6b66;dashed=1;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Escalate to Manager — Back-Order or Cancel&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="157.5" x="251.25" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--81" edge="1" parent="olr2-k681IYygHXelbj--5" source="olr2-k681IYygHXelbj--64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--64" parent="olr2-k681IYygHXelbj--5" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;fontColor=light-dark(#FFFFFF,#FFFFFF);align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Share Tech Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.192px;&quot;&gt;Goods Picked &amp;amp; Packed&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="510" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--82" edge="1" parent="olr2-k681IYygHXelbj--5" source="olr2-k681IYygHXelbj--79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--79" parent="olr2-k681IYygHXelbj--5" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;Packing Slip Generated&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="690" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--80" parent="olr2-k681IYygHXelbj--5" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start;&quot;&gt;Shipping Authorization Verified&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="830" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--85" parent="olr2-k681IYygHXelbj--5" style="shape=offPageConnector;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→ Continued Page 2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="683" y="130" as="geometry" />
+        </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--6" parent="olr2-k681IYygHXelbj--3" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#d79b00;fillColor=#ffcd28;labelBackgroundColor=none;gradientColor=#ffa500;verticalAlign=middle;whiteSpace=wrap;" value="Billing / Accounts Recievable" vertex="1">
           <mxGeometry height="260" width="1070" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="olr2-k681IYygHXelbj--42" edge="1" parent="olr2-k681IYygHXelbj--3" source="olr2-k681IYygHXelbj--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
