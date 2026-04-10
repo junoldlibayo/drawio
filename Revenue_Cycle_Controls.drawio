@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="vM5hD1I2OdI3W_U3G5BG">
-    <mxGraphModel dx="923" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="343" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,14 +16,14 @@
         <mxCell id="olr2-k681IYygHXelbj--13" parent="olr2-k681IYygHXelbj--4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;gradientColor=#97d077;" value="&lt;b&gt;START&lt;/b&gt;" vertex="1">
           <mxGeometry height="40" width="100" x="50" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="olr2-k681IYygHXelbj--21" edge="1" parent="olr2-k681IYygHXelbj--4" source="olr2-k681IYygHXelbj--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" target="olr2-k681IYygHXelbj--20">
+        <mxCell id="olr2-k681IYygHXelbj--26" edge="1" parent="olr2-k681IYygHXelbj--4" source="olr2-k681IYygHXelbj--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontColor=#FFFFFF;fillColor=#dae8fc;gradientColor=#7ea6e0;" target="olr2-k681IYygHXelbj--20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--18" parent="olr2-k681IYygHXelbj--4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 13.192px; text-align: start; background-color: rgba(0, 115, 123, 0.08);&quot;&gt;Customer Places Order&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="180" x="180" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="olr2-k681IYygHXelbj--20" parent="olr2-k681IYygHXelbj--4" style="shape=manualInput;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#1A1A1A;fillColor=#EEEEEE;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Order Details Entered into System&lt;/font&gt;" vertex="1">
-          <mxGeometry height="80" width="90" x="390" y="20" as="geometry" />
+        <mxCell id="olr2-k681IYygHXelbj--20" parent="olr2-k681IYygHXelbj--4" style="shape=manualInput;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;br&gt;Order Details Entered into System&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="420" y="10" as="geometry" />
         </mxCell>
         <mxCell id="olr2-k681IYygHXelbj--5" parent="olr2-k681IYygHXelbj--3" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#82b366;fillColor=#d5e8d4;labelBackgroundColor=none;gradientColor=#97d077;verticalAlign=middle;whiteSpace=wrap;" value="Warehouse Department" vertex="1">
           <mxGeometry height="120" width="1040" y="140" as="geometry" />
